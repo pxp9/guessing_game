@@ -17,8 +17,9 @@ rand = "0.8.3"
 - then write this commands in a shell 
 
 ```
+$ cargo build
+```
 
-$ cargo build  
+```
 $ cargo run 
-
 ```
