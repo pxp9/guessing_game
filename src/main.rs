@@ -31,7 +31,6 @@ fn main() {
 
     let mut found = false;
     let mut guess: String = read_number();
-    let func = |i: i32| -> i32 { i + 1 };
     while !found {
         match guess.trim().parse::<u32>() {
             Ok(guess_number) => {
